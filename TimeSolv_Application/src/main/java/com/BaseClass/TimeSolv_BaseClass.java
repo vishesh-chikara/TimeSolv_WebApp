@@ -24,7 +24,7 @@ public class TimeSolv_BaseClass {
 	public void load() throws IOException {
 		property = new Properties();
 		{
-			FileInputStream f2 = new FileInputStream("C:\\Users\\admin\\Desktop\\Automation\\NewBatch\\TimeSolv_Application\\src\\main\\resources\\Config.Properties");
+			FileInputStream f2 = new FileInputStream("C:\\Users\\admin\\git\\TimeSolv_WebApp\\TimeSolv_Application\\src\\main\\resources\\Config.Properties");
 			property.load(f2);
 		}
 

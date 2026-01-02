@@ -14,7 +14,7 @@ public class Login_TestCase extends TimeSolv_BaseClass {
 		Thread.sleep(5000);
 	}
 
-	@Test (enabled=true , priority=1 , description="To test the login functionality of App ")
+	@Test (priority=1 , description="To test the login functionality of App ")
 	public void Validlogin() throws InterruptedException {
 		LoginPage login = new LoginPage(driver);
 		login.valid_Cred();

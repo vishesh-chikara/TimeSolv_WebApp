@@ -2,28 +2,28 @@
 <testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-01T19:17:45 IST" name="TimeSolv_Suite" finished-at="2026-01-01T19:18:04 IST" duration-ms="19476">
+  <suite started-at="2026-01-02T18:08:25 IST" name="Default suite" finished-at="2026-01-02T18:08:45 IST" duration-ms="20042">
     <groups>
     </groups>
-    <test started-at="2026-01-01T19:17:45 IST" name="TimeSolv_Test" finished-at="2026-01-01T19:18:04 IST" duration-ms="19476">
+    <test started-at="2026-01-02T18:08:25 IST" name="Default test" finished-at="2026-01-02T18:08:45 IST" duration-ms="20042">
       <class name="com.TestCases.Login_TestCase">
-        <test-method is-config="true" signature="load()[pri:0, instance:com.TestCases.Login_TestCase@338fc1d8]" started-at="2026-01-01T19:17:45 IST" name="load" finished-at="2026-01-01T19:17:45 IST" duration-ms="25" status="PASS">
+        <test-method is-config="true" signature="load()[pri:0, instance:com.TestCases.Login_TestCase@338fc1d8]" started-at="2026-01-02T18:08:25 IST" name="load" finished-at="2026-01-02T18:08:25 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- load -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.TestCases.Login_TestCase@338fc1d8]" started-at="2026-01-01T19:17:45 IST" name="setup" finished-at="2026-01-01T19:17:51 IST" duration-ms="5792" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.TestCases.Login_TestCase@338fc1d8]" started-at="2026-01-02T18:08:25 IST" name="setup" finished-at="2026-01-02T18:08:30 IST" duration-ms="4954" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Validlogin()[pri:1, instance:com.TestCases.Login_TestCase@338fc1d8]" started-at="2026-01-01T19:17:51 IST" name="Validlogin" description="To test the login functionality of App " finished-at="2026-01-01T19:18:04 IST" duration-ms="13398" status="PASS">
+        <test-method signature="Validlogin()[pri:1, instance:com.TestCases.Login_TestCase@338fc1d8]" started-at="2026-01-02T18:08:30 IST" name="Validlogin" description="To test the login functionality of App " finished-at="2026-01-02T18:08:45 IST" duration-ms="14821" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Validlogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestCases.Login_TestCase@338fc1d8]" started-at="2026-01-01T19:18:04 IST" name="tearDown" finished-at="2026-01-01T19:18:04 IST" duration-ms="245" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestCases.Login_TestCase@338fc1d8]" started-at="2026-01-02T18:08:45 IST" name="tearDown" finished-at="2026-01-02T18:08:45 IST" duration-ms="233" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.TestCases.Login_TestCase -->
-    </test> <!-- TimeSolv_Test -->
-  </suite> <!-- TimeSolv_Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

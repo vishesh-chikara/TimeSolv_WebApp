@@ -6,9 +6,9 @@
       <class name="com.TestCases.Login_TestCase">
         <methods>
           <include name="setup"/>
+          <include name="Validlogin"/>
           <include name="tearDown"/>
           <include name="load"/>
-          <include name="invalidLogin"/>
         </methods>
       </class> <!-- com.TestCases.Login_TestCase -->
     </classes>
