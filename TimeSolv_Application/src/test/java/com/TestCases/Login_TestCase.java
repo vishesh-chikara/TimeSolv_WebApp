@@ -7,7 +7,7 @@ import com.Pages.LoginPage;
 
 public class Login_TestCase extends TimeSolv_BaseClass {
 
-	@Test (enabled=false)
+	@Test (enabled=true)
 	public void invalidLogin() throws InterruptedException {
 		LoginPage login = new LoginPage(driver);
 		login.invalid_Cred();
