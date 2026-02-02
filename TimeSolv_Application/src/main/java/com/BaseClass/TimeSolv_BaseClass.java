@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.time.Duration;
 import java.util.Properties;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -66,6 +67,10 @@ public class TimeSolv_BaseClass {
 			int implicitWait = Integer.parseInt(property.getProperty("implicitWait"));
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(implicitWait));
 			driver.manage().window().maximize();
+			
+			JavascriptExecutor js = (JavascriptExecutor) driver;
+		    js.executeScript("document.body.style.zoom='70%'");
+		    
 			try {
 				driver.get(property.getProperty("URL"));
 			} catch (Exception e) {

@@ -5,6 +5,7 @@
     <classes>
       
       <class name="com.TestCases.Login_TestCase"/>
+      <class name="com.TestCases.AddClient_TestCase"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

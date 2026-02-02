@@ -3,14 +3,14 @@
 <suite name="Failed suite [TimeSolv_Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="TimeSolv_Test(failed)">
     <classes>
-      <class name="com.TestCases.Login_TestCase">
+      <class name="com.TestCases.AddClient_TestCase">
         <methods>
           <include name="setup"/>
-          <include name="Validlogin"/>
           <include name="tearDown"/>
+          <include name="Adding_Client"/>
           <include name="load"/>
         </methods>
-      </class> <!-- com.TestCases.Login_TestCase -->
+      </class> <!-- com.TestCases.AddClient_TestCase -->
     </classes>
   </test> <!-- TimeSolv_Test(failed) -->
 </suite> <!-- Failed suite [TimeSolv_Suite] -->
